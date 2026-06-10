@@ -59,7 +59,7 @@ table {
 
 </head>
 <body>
-      <h2> My portfolio</h1>
+      <h2> My portfolio</h2>
     <h3> a simple showcase of my studies &short projects made.</h2>
 
 <h3>Front-end</h3>
