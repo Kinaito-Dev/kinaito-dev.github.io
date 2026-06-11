@@ -1,0 +1,97 @@
+/*****Hero*****/
+
+body section#hero {
+    background-color: brown;
+    min-height: 20rem;
+    overflow: hidden;
+    margin-bottom: 70px;
+}
+
+body section#hero div article.hero-content {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+
+}
+
+body section#hero div article.hero-content div.hero-text {
+    width: 800px;
+    margin-top: 60px;
+    
+    
+}
+body section#hero div article.hero-content div.hero-image {
+   
+   
+    text-align: center;
+    width: 450px;
+    
+}/*****Intro*****/
+
+section#intro> div.container p 
+{
+    margin-bottom: 40px;
+}
+/*************/
+
+
+
+/**PROJECTS***/
+
+div.container div.box-row {
+
+  
+ 
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+div.container div.box-row article.project-content {
+    width: 39rem;
+    margin: 2px;
+    min-height: 15rem;
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+    margin: 20px 0;
+    
+}
+.project-content img
+{
+  /*  position: absolute;
+    top: 0;
+    left: 0;*/
+    width: 200px;
+    
+}
+
+
+
+
+
+/*************************/
+
+div.container div.box-row div.study.category {
+    width: 39rem;
+    text-align: center;
+    min-height: 15rem;
+     overflow: hidden;
+     position: relative;
+}
+
+
+.study img {
+    /*position: absolute;
+    top: 0;
+    left: 0;*/
+    overflow: hidden;
+    margin: 20px 0;
+
+    width: 200px;
+}
+
+h2
+{
+    text-align: center;
+}
