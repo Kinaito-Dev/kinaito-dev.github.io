@@ -5,6 +5,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/general.css">
     <link rel="stylesheet" href="css/index.css">
@@ -15,8 +17,12 @@
         <div class="container">
             <article class="hero-content">
                 <div class="hero-text">
-                    <h1>My portfolio</h1>
-                    <h2 class="heros-logan"> my portfolio</h2>
+                    <h2 class="heros-logan"> Kinaito-Dev</h2>
+                    <span class="under-slogan">
+                        <p>Eduardo Lazzaro</p>
+                    </span>
+                    <h1 class="hero-title">Portfolio</h1>
+
                 </div>
                 <div class="hero-image"><img src="image/AI lotus Banner.png" alt=""></div>
             </article>
@@ -25,28 +31,36 @@
     </section>
     <section id="intro">
         <div class="container">
-            <p>Lorem ipsum dolor sit amet consectetur adipiscing elit torquent, himenaeos litora libero porta ac odio
-                semper, egestas dictumst massa felis dapibus dignissim dui. Morbi malesuada consequat felis metus
-                pellentesque fermentum non nec rutrum, ullamcorper fusce senectus euismod dictum sem phasellus tempus
-                cursus, vel arcu turpis maecenas eu curae fames placerat. Fames erat sagittis porttitor dictum feugiat
-                blandit taciti platea cum lacus egestas, sodales suspendisse velit eleifend inceptos euismod scelerisque
-                in facilisi facilisis.</p>
+            <p class="intro">
+                I am a junior web designer, junior game developer, and game writer, constantly developing my skills in
+                frontend development and game design. This portfolio presents a selection of my projects and learning
+                journey. If you’re interested in my work, feel free to get in touch.
+            </p>
         </div>
         <div style="clear: both;"></div>
     </section>
     <section id="projects-section">
         <div class="container">
-            <h2>My projects</h2>
-            <div class="box-row">
+            <h2 class="title">My projects</h2>
+            <div class="box-row box-projects">
                 <article class="project-content frontend">
-                    <img src="image/website-design.png" alt="">
-                    <h3>FrontEnd</h3>
-                    <h4>Coding && wordpress</h4>
+
+                    <a href="https://github.com/Kinaito-Dev/develope-pages-frontend-and-nor-wordpres" target="_blank">
+                        <h3>FrontEnd</h3>
+                        <img src="image/website-design.png" alt="">
+                    </a>
                 </article>
                 <article class="project-content POO">
-                    <img src="image/game-console.png" alt="">
-                    <h3>POO // Game Development</h3>
-                    <p> undeconstruction</p>
+
+                    <a href="https://github.com/Kinaito-Dev/Games-Developed-by-myself-unfinished-nor-prototype-"
+                        target="_blank">
+                        <h3>OOP // Game Development</h3>
+
+                        <img src="image/game-console.png" alt="">
+                        <p> (undeconstruction)</p>
+
+                    </a>
+
                 </article>
             </div>
 
@@ -55,41 +69,82 @@
     </section>
     <section id="studied-section">
         <div class="container">
-            <div class="studied-content">
-                <h2> Studied content - Frontend</h2>
-                <div class="box-row">
-                    <div class="study category html">
-                        <img src="image/html-5.png" alt="">
-                        <h3>HTML/CSS</h3>
-                    </div>
-                    <div class="study category wordpress">
-                        <img src="image/wordpress.png" alt="">
-                        <h3>Wordpress</h3>
-                    </div>
-                </div>
 
-            </div>
-            <div class="studied-content">
-                <h2> Studied Content - POO//Game Development</h2>
-                <div class="box-row">
-                    <div class="study category Java">
-                        <img src="/image/java-logo.png" alt="">
-                        <h3>java</h3>
+            <h2 class="title"> What I've Studied</h2>
+            <div class="box-row box-row-studies">
+                <div class="study-content">
+                    <h3>Frontend</h3>
+                    <div class="study-group">
+
+
+                        <a href="https://github.com/Kinaito-Dev/Web-Design-Frontend" target="_blank">
+                            <div class="study category html">
+                                <img src="image/html-5.png" alt="">
+                                <h4>HTML/CSS</h4>
+                            </div>
+                        </a>
+
+
+                        <a href="#">
+                            <div class="study category wordpress">
+                                <img src="image/wordpress.png" alt="">
+
+                                <h4>Wordpress</h4>
+
+                                <span class="undercon">
+                                    <p>(underconstruction)</p>
+                                </span>
+
+                            </div>
+                        </a>
+
                     </div>
-                    <div class="study category GML">
-                        <img src="https://assets.streamlinehq.com/image/private/w_300,h_300,ar_1/f_auto/v1/icons/logos/gamemaker-98kqzlyi1frrscfd07vfi.png/gamemaker-os7p0j98mgnwmrd3pzgoof.png?_a=DATAiZAAZAA0" alt="">
-                        <h3>GML</h3>
+
+                </div>
+                <div class="study-content">
+                    <h3>OOP // Game Development</h3>
+                    <div class="study-group">
+                        <div class="study category Java">
+
+                            <a href="https://github.com/Kinaito-Dev/Eclipse-Game-development-first-year"
+                                target="_blank">
+                                <img src="/image/java-logo.png" alt="">
+                                <h4>java</h4>
+                            </a>
+
+                        </div>
+                        <div class="study category GML">
+
+                            <a href="https://github.com/Kinaito-Dev/Game-maker-Gamedevelopment" target="_blank">
+                                <img src="https://assets.streamlinehq.com/image/private/w_300,h_300,ar_1/f_auto/v1/icons/logos/gamemaker-98kqzlyi1frrscfd07vfi.png/gamemaker-os7p0j98mgnwmrd3pzgoof.png?_a=DATAiZAAZAA0"
+                                    alt="">
+                                <h4>GML</h4>
+                            </a>
+
+                        </div>
+                        <div class="study category Csharp">
+
+                            <a href="https://github.com/Kinaito-Dev/Unity-Game-Development-Danki" target="_blank">
+                                <img src="image/c-sharp.png" alt="">
+                                <h4>C#</h4>
+                            </a>
+
+                        </div>
+                        <div class="study category Cplus">
+                            <img src="image/c-.png" alt="">
+                            <h4>C++</h4>
+                            <span class="undercon">
+                                <p>(underconstruction)</p>
+                            </span>
+                        </div>
                     </div>
-                    <div class="study category Csharp">
-                        <img src="image/c-sharp.png" alt="">
-                        <h3>C#</h3>
-                    </div>
-                    <div class="study category Cplus">
-                        <img src="image/c-.png" alt="">
-                        <h3>C++</h3>
-                    </div>
+
                 </div>
             </div>
+
+
+
+
         </div>
         <div style="clear: both;"></div>
     </section>

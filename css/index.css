@@ -1,7 +1,7 @@
 /*****Hero*****/
 
 body section#hero {
-    background-color: brown;
+    
     min-height: 20rem;
     overflow: hidden;
     margin-bottom: 70px;
@@ -12,26 +12,38 @@ body section#hero div article.hero-content {
     justify-content: center;
     flex-wrap: wrap;
 
+
 }
 
 body section#hero div article.hero-content div.hero-text {
     width: 800px;
     margin-top: 60px;
-    
-    
-}
-body section#hero div article.hero-content div.hero-image {
-   
-   
-    text-align: center;
-    width: 450px;
-    
-}/*****Intro*****/
 
-section#intro> div.container p 
-{
+
+}
+
+body section#hero div article.hero-content div.hero-image {
+
+
+    text-align: center;
+    margin-top: auto;
+    width: 450px;
+
+}
+
+body section#hero div article.hero-content div.hero-image img {
+
+
+    width:450px;
+
+}
+
+/*****Intro*****/
+
+section#intro>div.container p {
     margin-bottom: 40px;
 }
+
 /*************/
 
 
@@ -40,44 +52,68 @@ section#intro> div.container p
 
 div.container div.box-row {
 
-  
- 
+
     display: flex;
     justify-content: center;
-    flex-wrap: wrap;
+    flex-wrap: wrap;;
+    margin-bottom: 40px;
 }
 
+
+
+
+
+
+
 div.container div.box-row article.project-content {
-    width: 39rem;
-    margin: 2px;
+    width: 29rem;
     min-height: 15rem;
     position: relative;
     overflow: hidden;
     text-align: center;
     margin: 20px 0;
-    
+
+
 }
-.project-content img
-{
-  /*  position: absolute;
+
+.project-content img {
+    /*  position: absolute;
     top: 0;
     left: 0;*/
     width: 200px;
-    
+    margin: 30px 0;
+
+
 }
 
 
-
-
-
 /*************************/
+section#studied-section
+{
+    padding-bottom: 200px;
+}
+div.container div.box-row-studies
+{
+   
+}
+
+.study-group {
+    display: flex;
+    justify-content: center;
+    gap: calc(3em);
+
+    margin: 20px 0;
+    width: 450px;
+
+}
 
 div.container div.box-row div.study.category {
-    width: 39rem;
+   
     text-align: center;
-    min-height: 15rem;
-     overflow: hidden;
-     position: relative;
+
+    overflow: hidden;
+    position: relative;
+
 }
 
 
@@ -87,11 +123,32 @@ div.container div.box-row div.study.category {
     left: 0;*/
     overflow: hidden;
     margin: 20px 0;
-
-    width: 200px;
+    width: 50px;
+}
+h1.hero-title
+{
+    padding-left: 70px;
+    margin-top: 20px;
 }
 
-h2
-{
+h2.title {
     text-align: center;
+    margin-bottom: 50px;
+}
+
+h3 {
+    text-align: center;
+
+}
+
+.under-slogan p
+{
+    margin-left: 10rem;
+    
+}
+p.intro
+{
+
+    width: 50em;
+    margin: 0 auto;
 }
