@@ -1,7 +1,7 @@
 /*****Hero*****/
 
 body section#hero {
-    
+
     min-height: 20rem;
     overflow: hidden;
     margin-bottom: 70px;
@@ -11,14 +11,18 @@ body section#hero div article.hero-content {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
+    
+    height: 400px;
+    
 
 
 }
 
 body section#hero div article.hero-content div.hero-text {
-    width: 800px;
-    margin-top: 60px;
-
+    border: 1px solid;
+    width: 100%;
+    max-width: 1250px;
+    margin-top: auto;
 
 }
 
@@ -34,13 +38,22 @@ body section#hero div article.hero-content div.hero-image {
 body section#hero div article.hero-content div.hero-image img {
 
 
-    width:450px;
+    width: 450px;
 
 }
 
 /*****Intro*****/
+section#intro>div.container {
+    border: 1PX SOLID RED;
+
+}
 
 section#intro>div.container p {
+    border: 1px solid red;
+
+    width: 90%;
+    max-width: 1250PX;
+
     margin-bottom: 40px;
 }
 
@@ -55,7 +68,8 @@ div.container div.box-row {
 
     display: flex;
     justify-content: center;
-    flex-wrap: wrap;;
+    flex-wrap: wrap;
+    ;
     margin-bottom: 40px;
 }
 
@@ -88,14 +102,11 @@ div.container div.box-row article.project-content {
 
 
 /*************************/
-section#studied-section
-{
+section#studied-section {
     padding-bottom: 200px;
 }
-div.container div.box-row-studies
-{
-   
-}
+
+div.container div.box-row-studies {}
 
 .study-group {
     display: flex;
@@ -108,7 +119,7 @@ div.container div.box-row-studies
 }
 
 div.container div.box-row div.study.category {
-   
+
     text-align: center;
 
     overflow: hidden;
@@ -125,10 +136,16 @@ div.container div.box-row div.study.category {
     margin: 20px 0;
     width: 50px;
 }
-h1.hero-title
-{
-    padding-left: 70px;
-    margin-top: 20px;
+
+h1.hero-title {
+  font-size: clamp(2rem, 10vw, 8rem);
+    line-height: 1;
+}
+
+h2.hero-slogan {
+    font-size: clamp(1rem, 5vw, 3rem);
+  
+
 }
 
 h2.title {
@@ -141,13 +158,10 @@ h3 {
 
 }
 
-.under-slogan p
-{
-    margin-left: 10rem;
-    
+.under-slogan p {
 }
-p.intro
-{
+
+p.intro {
 
     width: 50em;
     margin: 0 auto;
