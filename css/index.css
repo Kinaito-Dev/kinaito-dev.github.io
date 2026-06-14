@@ -1,28 +1,36 @@
 /*****Hero*****/
 
 body section#hero {
-
-    min-height: 20rem;
+    min-height: 18rem;
     overflow: hidden;
     margin-bottom: 70px;
+    position: relative;
+}
+body section#hero video.bg-hero-video {
+   position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    min-height: 18.75rem ;
+    object-fit: cover; /* Ensures video fills the screen */
+    z-index: -1; /* Sends it behind content */
+
 }
 
 body section#hero div article.hero-content {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    
-    height: 400px;
-    
-
-
+    height: 300px;
 }
 
 body section#hero div article.hero-content div.hero-text {
-    border: 1px solid;
-    width: 100%;
+    border-radius: 5px 5px 0px 0px;
+   /* background-color: white;*/
     max-width: 1250px;
     margin-top: auto;
+    color: white;
+    text-shadow: 10px 10px 10px #000000;
 
 }
 
@@ -44,12 +52,12 @@ body section#hero div article.hero-content div.hero-image img {
 
 /*****Intro*****/
 section#intro>div.container {
-    border: 1PX SOLID RED;
+
 
 }
 
 section#intro>div.container p {
-    border: 1px solid red;
+
 
     width: 90%;
     max-width: 1250PX;
@@ -106,26 +114,41 @@ section#studied-section {
     padding-bottom: 200px;
 }
 
-div.container div.box-row-studies {}
-
-.study-group {
+div.container div.box-row-studies {
+ 
     display: flex;
     justify-content: center;
-    gap: calc(3em);
+}
 
-    margin: 20px 0;
-    width: 450px;
+.study-content {
+    width: 530px;
+   
 
 }
 
-div.container div.box-row div.study.category {
+.study-group {
+    display: grid;
 
+    gap: 1rem;
+    grid-template-columns: repeat(auto-fit, 120px);
+    justify-items: center;
+    justify-content: center;
+
+
+}
+
+
+div.container div.box-row div.study.category {
+    height: 120px;
+   width: 100px;
     text-align: center;
+  
 
     overflow: hidden;
     position: relative;
 
 }
+
 
 
 .study img {
@@ -138,13 +161,14 @@ div.container div.box-row div.study.category {
 }
 
 h1.hero-title {
-  font-size: clamp(2rem, 10vw, 8rem);
+    font-size: clamp(4rem, 10vw, 8rem);
+    margin-left: 2rem;
     line-height: 1;
 }
 
 h2.hero-slogan {
-    font-size: clamp(1rem, 5vw, 3rem);
-  
+    font-size: clamp(1.8rem, 5vw, 3rem);
+
 
 }
 
@@ -156,9 +180,16 @@ h2.title {
 h3 {
     text-align: center;
 
+
+}
+.study-content h3 {
+    margin: 40px 0;
+
 }
 
 .under-slogan p {
+    font-size: clamp(0.6rem, 2vw, 1rem);
+    margin-left: 10rem;
 }
 
 p.intro {

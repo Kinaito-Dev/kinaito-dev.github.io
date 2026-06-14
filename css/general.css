@@ -62,13 +62,16 @@ h3 {
 }
 
 p {
+	text-align: justify;
 	font-size: 1rem;
 	font-family: "Noto Serif Telugu", serif;
 }
 
 span.undercon p {
 	font-size: 0.5em;
+	text-align: center;
 }
+
 
 a {
 	text-decoration: none;
