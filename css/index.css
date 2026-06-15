@@ -8,7 +8,7 @@ body section#hero {
 }
 body section#hero video.bg-hero-video {
    position: absolute;
-    top: -200px;
+    top: 0;
     left: 0;
     width: 100%;
     min-height: 18.75rem ;
